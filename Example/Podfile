@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KPNotificationCenter_Example' do
+  pod 'KPNotificationCenter', :path => '../'
+
+  target 'KPNotificationCenter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
