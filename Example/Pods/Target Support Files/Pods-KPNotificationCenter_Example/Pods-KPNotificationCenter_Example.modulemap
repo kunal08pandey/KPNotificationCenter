@@ -1,0 +1,6 @@
+framework module Pods_KPNotificationCenter_Example {
+  umbrella header "Pods-KPNotificationCenter_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

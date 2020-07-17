@@ -1,0 +1,16 @@
+PODS:
+  - KPNotificationCenter (0.1.0)
+
+DEPENDENCIES:
+  - KPNotificationCenter (from `../`)
+
+EXTERNAL SOURCES:
+  KPNotificationCenter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KPNotificationCenter: 6588283d5e097a614c52df3861732f3a8fa0574a
+
+PODFILE CHECKSUM: cbd804c2744bc351c5d3acb48575682e50fb9291
+
+COCOAPODS: 1.9.3

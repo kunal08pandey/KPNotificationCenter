@@ -1,0 +1,24 @@
+{
+  "name": "KPNotificationCenter",
+  "version": "0.1.0",
+  "summary": "KPNotificationCenter is a custom NotificationCenter.",
+  "description": "This is basically for the custom Notification Center just like the native one.",
+  "homepage": "https://github.com/kunal08pandey/KPNotificationCenter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kunal08pandey": "kpandey@dminc.com"
+  },
+  "source": {
+    "git": "https://github.com/kunal08pandey/KPNotificationCenter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "swift_versions": "4.2",
+  "source_files": "KPNotificationCenter/Classes/**/*",
+  "swift_version": "4.2"
+}

@@ -13,6 +13,9 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		9940990C24C0AFB10096BF6A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9940990B24C0AFB10096BF6A /* SecondViewController.swift */; };
+		9940990E24C0B8770096BF6A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9940990D24C0B8770096BF6A /* ThirdViewController.swift */; };
+		999A394A24C1767C00931B88 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999A394924C1767C00931B88 /* Constant.swift */; };
 		BF4FF2B0B6297D6C4C5B5791 /* Pods_KPNotificationCenter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 977F0ED2ADE53228C843CF79 /* Pods_KPNotificationCenter_Example.framework */; };
 		E899F097F5706E24A853DC17 /* Pods_KPNotificationCenter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71568BA27B6E82637CCCAD89 /* Pods_KPNotificationCenter_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -28,10 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18D3C3E09694E708E84E08CE /* KPNotificationCenter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KPNotificationCenter.podspec; path = ../KPNotificationCenter.podspec; sourceTree = "<group>"; };
+		18D3C3E09694E708E84E08CE /* KPNotificationCenter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KPNotificationCenter.podspec; path = ../KPNotificationCenter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		35B8D8560060EC9438084344 /* Pods-KPNotificationCenter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KPNotificationCenter_Example.debug.xcconfig"; path = "Target Support Files/Pods-KPNotificationCenter_Example/Pods-KPNotificationCenter_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		44525EFD832DB957F97EFF32 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		484CD320ABB17441233B80BD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		44525EFD832DB957F97EFF32 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		484CD320ABB17441233B80BD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5C4B2CB74EDDBF30DAE9B840 /* Pods-KPNotificationCenter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KPNotificationCenter_Example.release.xcconfig"; path = "Target Support Files/Pods-KPNotificationCenter_Example/Pods-KPNotificationCenter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* KPNotificationCenter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KPNotificationCenter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +48,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		71568BA27B6E82637CCCAD89 /* Pods_KPNotificationCenter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KPNotificationCenter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		977F0ED2ADE53228C843CF79 /* Pods_KPNotificationCenter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KPNotificationCenter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9940990B24C0AFB10096BF6A /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9940990D24C0B8770096BF6A /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		999A394924C1767C00931B88 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		AB1746682A201E34A0B8C6B6 /* Pods-KPNotificationCenter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KPNotificationCenter_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KPNotificationCenter_Tests/Pods-KPNotificationCenter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BD392818FD8862268723F524 /* Pods-KPNotificationCenter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KPNotificationCenter_Tests.release.xcconfig"; path = "Target Support Files/Pods-KPNotificationCenter_Tests/Pods-KPNotificationCenter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +83,6 @@
 				AB1746682A201E34A0B8C6B6 /* Pods-KPNotificationCenter_Tests.debug.xcconfig */,
 				BD392818FD8862268723F524 /* Pods-KPNotificationCenter_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -116,10 +121,13 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				9940990B24C0AFB10096BF6A /* SecondViewController.swift */,
+				9940990D24C0B8770096BF6A /* ThirdViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				999A394924C1767C00931B88 /* Constant.swift */,
 			);
 			name = "Example for KPNotificationCenter";
 			path = KPNotificationCenter;
@@ -227,6 +235,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -331,7 +340,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9940990C24C0AFB10096BF6A /* SecondViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				999A394A24C1767C00931B88 /* Constant.swift in Sources */,
+				9940990E24C0B8770096BF6A /* ThirdViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
